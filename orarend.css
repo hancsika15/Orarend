@@ -1,0 +1,61 @@
+body{
+    background:linear-gradient(110deg, black 70%, white 70%);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 0;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+}
+
+a:visited, a:active{
+    color: red;
+}
+
+h5,h6{
+    text-align: center;
+    margin: 1.5px;
+}
+
+table{
+    border-spacing: 10px;
+    empty-cells: hide;
+    margin: auto;
+    width: 100%;
+    width: 100%;
+}
+
+th,td{
+    text-align: center;
+}
+
+th:nth-child(6){
+    color:black;
+}
+
+button{
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid white;
+    border: none;
+    border-radius: 0.9rem;
+    padding: 15px;
+    min-width: 200px;  
+    min-height: 70px;
+}
+
+button:hover{
+    background-color:black;
+    color: red;
+}
